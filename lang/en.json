@@ -1,0 +1,143 @@
+{
+  "PNP": {
+    "Ability": {
+      "Resolve": { "long": "Resolve", "abbr": "resolve", "ailment": "Weary" },
+      "Grace": { "long": "Grace", "abbr": "grace", "ailment": "Woozy" },
+      "Wits": { "long": "Wits", "abbr": "wits", "ailment": "Befuddled" }
+    },
+    "SheetLabels": {
+      "Actor": "PNP Actor Sheet",
+      "Item": "PNP Item Sheet"
+    },
+    "Actor": {
+      "Tabs": {
+        "Biography": "Biography",
+        "Features": "Features",
+        "Gear": "Gear",
+        "Spells": "Spells",
+        "Gift": "Gift"
+      },
+      "base": {
+        "FIELDS": {
+          "biography": {"label": "Biography"},
+          "health": {
+            "value": {"label": "Health"},
+            "max": {"label": "Maximum Health"}
+          },
+          "power": {
+            "value": {"label": "Power"},
+            "max": {"label": "Maximum Power"}
+          }
+        }
+      },
+      "Character": {
+        "FIELDS": {
+          "attributes.level.value": {"label": "Level"}
+        }
+      },
+      "NPC": {
+        "FIELDS": {
+          "cr": {"label": "CR"}
+        },
+        "xp": {"label": "XP"}
+      }
+    },
+    "Item": {
+      "Tabs": {
+        "Attributes": "Attributes",
+        "Description": "Description",
+        "Effects": "Effects"
+      },
+      "Gear": {
+        "FIELDS": {
+          "rollFormula": {"label": "Roll Formula"},
+          "numDice": {"label": "Number of Dice"},
+          "dieSize": {"label": "Die Size"},
+          "rollMod": {"label": "Roll Modifier"},
+          "quantity": {"label": "Quantity"},
+          "weight": {"label": "Weight"}
+        }
+      },
+      "Spell": {
+        "FIELDS": {
+          "level": {"label": "Spell Level"}
+        },
+        "SpellLVL": "Level {level} Spells",
+        "AddLVL": "Add LVL {level}"
+      }
+    },
+    "Effect": {
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    },
+    "Skill": {
+      "Acting": { "long": "Acting" },
+      "Alchemy": { "long": "Alchemy" },
+      "Animal_Husbandry": { "long": "Animal Husbandry" },
+      "Armory": { "long": "Armory" },
+      "Astronomy": { "long": "Astronomy" },
+      "Athletics": { "long": "Athletics" },
+      "Baking": { "long": "Baking" },
+      "Blacksmithing": { "long": "Blacksmithing" },
+      "Brewing": { "long": "Brewing" },
+      "Calligraphy": { "long": "Calligraphy" },
+      "Candle_Making": { "long": "Candle Making" },
+      "Carousing": { "long": "Carousing" },
+      "Carpentry": { "long": "Carpentry" },
+      "Cartography": { "long": "Cartography" },
+      "Cooking": { "long": "Cooking" },
+      "Courtly_Etiquette": { "long": "Courtly Etiquette" },
+      "Dancing": { "long": "Dancing" },
+      "Falconry": { "long": "Falconry" },
+      "Fiber_Arts": { "long": "Fiber Arts" },
+      "Fine_Art": { "long": "Fine Art" },
+      "Fishing": { "long": "Fishing" },
+      "Folklore": { "long": "Folklore" },
+      "Foraging": { "long": "Foraging" },
+      "Fortune_Telling": { "long": "Fortune Telling" },
+      "Gardening": { "long": "Gardening" },
+      "Healing": { "long": "Healing" },
+      "Herbalism": { "long": "Herbalism" },
+      "History": { "long": "History" },
+      "Horseback_Riding": { "long": "Horseback Riding" },
+      "Hunting": { "long": "Hunting" },
+      "Leatherwork": { "long": "Leatherwork" },
+      "Linguistics": { "long": "Linguistics" },
+      "Lock_Picking": { "long": "Lock Picking" },
+      "Masonry": { "long": "Masonry" },
+      "Merchantry": { "long": "Merchantry" },
+      "Music": { "long": "Music" },
+      "Parlor_Games": { "long": "Parlor Games" },
+      "Poetry": { "long": "Poetry" },
+      "Sailing": { "long": "Sailing" },
+      "Sewing": { "long": "Sewing" },
+      "Theatre": { "long": "Theatre" },
+      "Wayfinding": { "long": "Wayfinding" },
+      "Winemaking": { "long": "Winemaking" }
+    },
+    "Range": {
+      "At_Hand": { "long": "At Hand" },
+      "Nearby":{ "long": "Nearby" },
+      "Stones_Throw": { "long": "Stone's Throw" },
+      "Over_Yonder": { "long": "Over Yonder" }
+    }
+  },
+
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC"
+    },
+    "Item": {
+      "gear": "Gear",
+      "item": "Item",
+      "feature": "Feature",
+      "spell": "Spell",
+      "gift": "Gift",
+      "weapon": "Weapon"
+    }
+  }
+}
